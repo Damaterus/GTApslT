@@ -3,7 +3,7 @@ import time
 import os
 import psutil
 
-process_name = "gtav"
+process_name = "GTA5"
 pid = None
 
 for proc in psutil.process_iter():
