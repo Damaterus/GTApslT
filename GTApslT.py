@@ -1,7 +1,6 @@
 import psutil
 import time
 import os
-import psutil
 
 process_name = "GTA5"
 pid = None
@@ -12,6 +11,5 @@ for proc in psutil.process_iter():
 p = psutil.Process(pid)
 p.suspend()
 time.sleep(5)
-import os
 p.resume()
 os.system("pause")
