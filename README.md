@@ -1,7 +1,7 @@
 # GTApslT
 GTA V Online Public Solo Lobby Tool
 
-##Voraussetzungen:
+## Voraussetzungen:
 
 
 Python 3.8+
